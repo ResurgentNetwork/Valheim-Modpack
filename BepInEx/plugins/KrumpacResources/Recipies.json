@@ -1,0 +1,118 @@
+{
+    "customrecipes": [
+        {
+            "name": "Recipe_BlackMetalNails",
+            "item": "BlackmetalNails",
+            "amount": 1,
+            "craftingStation": "forge",
+            "minStationLevel": 5,
+            "enabled": true,
+            "repairStation": "",
+            "resources": [
+                {
+                    "item": "BlackMetal",
+                    "amount": 1,
+                    "amountPerLevel": 0,
+                    "recovery": true
+                }
+            ]
+        },
+        {
+            "name": "Recipe_SilverNails",
+            "item": "SilverNails",
+            "amount": 1,
+            "craftingStation": "forge",
+            "minStationLevel": 4,
+            "enabled": true,
+            "repairStation": "",
+            "resources": [
+                {
+                    "item": "Silver",
+                    "amount": 1,
+                    "amountPerLevel": 0,
+                    "recovery": true
+                }
+            ]
+        },
+        {
+            "name": "Recipe_SteelNails",
+            "item": "SteelNails",
+            "amount": 10,
+            "craftingStation": "forge",
+            "minStationLevel": 5,
+            "enabled": true,
+            "repairStation": "",
+            "resources": [
+                {
+                    "item": "Steel",
+                    "amount": 1,
+                    "amountPerLevel": 0,
+                    "recovery": true
+                }
+            ]
+        },
+        {
+            "name": "Recipe_GoldNails",
+            "item": "GoldNails",
+            "amount": 10,
+            "craftingStation": "forge",
+            "minStationLevel": 5,
+            "enabled": true,
+            "repairStation": "",
+            "resources": [
+                {
+                    "item": "Gold",
+                    "amount": 1,
+                    "amountPerLevel": 0,
+                    "recovery": true
+                }
+            ]
+        },
+        {
+            "name": "Recipe_Steel",
+            "item": "Steel",
+            "amount": 1,
+            "craftingStation": "forge",
+            "minStationLevel": 5,
+            "enabled": true,
+            "repairStation": "",
+            "resources": [
+                {
+                    "item": "IronOre",
+                    "amount": 2,
+                    "amountPerLevel": 0,
+                    "recovery": true
+                },
+                {
+                    "item": "Quartz",
+                    "amount": 1,
+                    "amountPerLevel": 0,
+                    "recovery": true
+                }
+            ]
+        },
+        {
+            "name": "Recipe_Gold",
+            "item": "Gold",
+            "amount": 1,
+            "craftingStation": "forge",
+            "minStationLevel": 5,
+            "enabled": true,
+            "repairStation": "",
+            "resources": [
+                {
+                    "item": "Coins",
+                    "amount": 400,
+                    "amountPerLevel": 0,
+                    "recovery" : true
+                },
+                {
+                    "item": "Steel",
+                    "amount": 1,
+                    "amountPerLevel": 0,
+                    "recovery": true
+                }
+            ]
+        }
+    ]
+}

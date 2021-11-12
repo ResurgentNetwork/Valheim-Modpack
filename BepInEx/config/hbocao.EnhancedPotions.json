@@ -1,0 +1,734 @@
+{
+  "Version": 7,
+  "Enabled": true,
+  "Recipes": [
+    {
+      "Enabled": true,
+      "MeadPrefabName": "WeightMeadBase",
+      "PotionPrefabName": "WeightPotion",
+      "ItemName": "Megingjord's extract",
+      "Requirements": [
+        {
+          "Item": "TrophyFrostTroll",
+          "Amount": 10
+        },
+        {
+          "Item": "DragonEgg",
+          "Amount": 1
+        },
+        {
+          "Item": "BeltStrength",
+          "Amount": 1
+        },
+        {
+          "Item": "LoxPie",
+          "Amount": 5
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 600,
+      "EffectTooltip": "Increased max carry weight, slower health regeneration.",
+      "PotionDescription": "Gives the drinker a god's strength",
+      "ConsumptionMessage": "You feel strong like a god",
+      "PotionEffectsConfig": {
+        "Effects": {
+          "Weight": 250.0,
+          "HealthRegenMultiplier": -0.5
+        }
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "PortalMeadBase",
+      "PotionPrefabName": "PortalPotion",
+      "ItemName": "Bifröst's apozem",
+      "Requirements": [
+        {
+          "Item": "GreydwarfEye",
+          "Amount": 200
+        },
+        {
+          "Item": "SurtlingCore",
+          "Amount": 10
+        },
+        {
+          "Item": "DragonEgg",
+          "Amount": 1
+        },
+        {
+          "Item": "Needle",
+          "Amount": 15
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 450,
+      "EffectTooltip": "Portal usage without any restrictions, slower health and stamina regeneration",
+      "PotionDescription": "Allows unrestricted Portal use",
+      "ConsumptionMessage": "You feel transcendent",
+      "PotionEffectsConfig": {
+        "Effects": {
+          "Portal": 0.0,
+          "StaminaRegenMultiplier": -0.25,
+          "HealthRegenMultiplier": -0.25,
+          "Weight": -100.0
+        }
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "FlyMeadBase",
+      "PotionPrefabName": "FlyPotion",
+      "ItemName": "Tyr's decantation",
+      "Requirements": [
+        {
+          "Item": "Feathers",
+          "Amount": 100
+        },
+        {
+          "Item": "Cloudberry",
+          "Amount": 75
+        },
+        {
+          "Item": "CopperOre",
+          "Amount": 25
+        },
+        {
+          "Item": "QueenBee",
+          "Amount": 1
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 210,
+      "EffectTooltip": "You can fly but can carry less weight",
+      "PotionDescription": "Gives the power of flight",
+      "ConsumptionMessage": "You feel lighter",
+      "Instructions": "Double-tap `JUMP` to activate/deactivate it. Press `JUMP` to go up and `CROUCH` to go down.",
+      "PotionEffectsConfig": {
+        "Effects": {
+          "Fly": 0.0,
+          "Weight": -150.0
+        }
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "WaterSinkMeadBase",
+      "PotionPrefabName": "WaterSinkPotion",
+      "ItemName": "Hrungnir's effusion",
+      "Requirements": [
+        {
+          "Item": "SerpentScale",
+          "Amount": 50
+        },
+        {
+          "Item": "SerpentMeatCooked",
+          "Amount": 20
+        },
+        {
+          "Item": "Iron",
+          "Amount": 15
+        },
+        {
+          "Item": "FishRaw",
+          "Amount": 20
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 600,
+      "EffectTooltip": "You can breathe and walk underwater, stamina regeneration is slower.",
+      "PotionDescription": "Gives the power of breathing and walking underwater",
+      "ConsumptionMessage": "You feel your body heavy and your lungs expanded",
+      "Instructions": "You can recover stamina by staying put.",
+      "PotionEffectsConfig": {
+        "Effects": {
+          "WaterSink": 0.0,
+          "StaminaRegenMultiplier": -0.35
+        }
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "PukeMeadBase",
+      "PotionPrefabName": "PukePotion",
+      "ItemName": "Spyja solution",
+      "Requirements": [
+        {
+          "Item": "Guck",
+          "Amount": 5
+        },
+        {
+          "Item": "Bloodbag",
+          "Amount": 1
+        },
+        {
+          "Item": "ElderBark",
+          "Amount": 1
+        },
+        {
+          "Item": "Resin",
+          "Amount": 20
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 10,
+      "Duration": 20,
+      "EffectTooltip": "You feel sick, health and stamina regeneration is slower",
+      "PotionDescription": "Smelling horrible and tasting even worse, it will make you vomit",
+      "ConsumptionMessage": "You feel sick and won't be able to ingest anything",
+      "Instructions": "Clears the effects of all the consumed goods (food, potion and mead) while in effect and slows stats regeneration.",
+      "PotionEffectsConfig": {
+        "Effects": {
+          "Puke": 0.0,
+          "StaminaRegenMultiplier": -0.5,
+          "HealthRegenMultiplier": -0.85
+        }
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "GreaterStaminaMeadBase",
+      "PotionPrefabName": "GreaterStaminaPotion",
+      "ItemName": "Greater Stamina solution",
+      "Requirements": [
+        {
+          "Item": "Honey",
+          "Amount": 50
+        },
+        {
+          "Item": "Cloudberry",
+          "Amount": 50
+        },
+        {
+          "Item": "MushroomYellow",
+          "Amount": 50
+        },
+        {
+          "Item": "Bread",
+          "Amount": 5
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 300,
+      "EffectTooltip": "Stamina over time and increased stamina and health regeneration",
+      "PotionDescription": "Restores stamina",
+      "ConsumptionMessage": "You feel your heart beating faster and stronger",
+      "PotionEffectsConfig": {
+        "Effects": {
+          "StaminaRegenMultiplier": 0.25,
+          "StaminaOverTime": 200.0,
+          "HealthRegenMultiplier": 0.05,
+          "StaminaOverTimeDuration": 2.0
+        }
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "GreaterHealthMeadBase",
+      "PotionPrefabName": "GreaterHealthPotion",
+      "ItemName": "Greater Health solution",
+      "Requirements": [
+        {
+          "Item": "Honey",
+          "Amount": 50
+        },
+        {
+          "Item": "Bloodbag",
+          "Amount": 20
+        },
+        {
+          "Item": "Raspberry",
+          "Amount": 50
+        },
+        {
+          "Item": "LoxMeat",
+          "Amount": 5
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 300,
+      "EffectTooltip": "Health over time and increased health and stamina regeneration",
+      "PotionDescription": "Restores health",
+      "ConsumptionMessage": "You feel your blood pumping through your whole body",
+      "PotionEffectsConfig": {
+        "Effects": {
+          "StaminaRegenMultiplier": 0.05,
+          "HealthOverTime": 125.0,
+          "HealthRegenMultiplier": 0.25,
+          "HealthOverTimeDuration": 10.0,
+          "HealthOverTimeInterval": 1.0
+        }
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "EikthyrMeadBase",
+      "PotionPrefabName": "EikthyrPotion",
+      "ItemName": "Eikthyr's elixir",
+      "Requirements": [
+        {
+          "Item": "TrophyEikthyr",
+          "Amount": 1
+        },
+        {
+          "Item": "Honey",
+          "Amount": 50
+        },
+        {
+          "Item": "DeerHide",
+          "Amount": 10
+        },
+        {
+          "Item": "TrophyDeer",
+          "Amount": 5
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 300,
+      "EffectTooltip": "Your ability to run and jump is improved",
+      "PotionDescription": "Drinkable Eikthyr's power",
+      "ConsumptionMessage": "You activate the power of Eikthyr",
+      "PotionEffectsConfig": {
+        "Effects": {
+          "RunStaminaDrainModifier": -0.6,
+          "JumpStaminaDrainModifier": -0.6
+        }
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "ElderMeadBase",
+      "PotionPrefabName": "ElderPotion",
+      "ItemName": "Elder's elixir",
+      "Requirements": [
+        {
+          "Item": "TrophyTheElder",
+          "Amount": 1
+        },
+        {
+          "Item": "Honey",
+          "Amount": 50
+        },
+        {
+          "Item": "AncientSeed",
+          "Amount": 15
+        },
+        {
+          "Item": "TrophyGreydwarf",
+          "Amount": 20
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 300,
+      "EffectTooltip": "Faster wood cutting",
+      "PotionDescription": "Drinkable Elder's power",
+      "ConsumptionMessage": "The Elder's power surges through you",
+      "PotionEffectsConfig": {
+        "AttackModifiers": {
+          "WoodCutting": 1.6
+        }
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "BonemassMeadBase",
+      "PotionPrefabName": "BonemassPotion",
+      "ItemName": "Bonemass' elixir",
+      "Requirements": [
+        {
+          "Item": "TrophyBonemass",
+          "Amount": 1
+        },
+        {
+          "Item": "Honey",
+          "Amount": 50
+        },
+        {
+          "Item": "BoneFragments",
+          "Amount": 35
+        },
+        {
+          "Item": "Entrails",
+          "Amount": 10
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 300,
+      "EffectTooltip": "Resistance VS physical damage.",
+      "PotionDescription": "Drinkable Bonemass' power",
+      "ConsumptionMessage": "Bonemass spirit lives in you now",
+      "PotionEffectsConfig": {
+        "DamageModifiers": [
+          {
+            "Type": "Blunt",
+            "Modifier": "Resistant"
+          },
+          {
+            "Type": "Slash",
+            "Modifier": "Resistant"
+          },
+          {
+            "Type": "Pierce",
+            "Modifier": "Resistant"
+          }
+        ]
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "ModerMeadBase",
+      "PotionPrefabName": "ModerPotion",
+      "ItemName": "Moder's elixir",
+      "Requirements": [
+        {
+          "Item": "TrophyDragonQueen",
+          "Amount": 1
+        },
+        {
+          "Item": "Honey",
+          "Amount": 50
+        },
+        {
+          "Item": "FreezeGland",
+          "Amount": 15
+        },
+        {
+          "Item": "DragonEgg",
+          "Amount": 1
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 300,
+      "EffectTooltip": "Always tailwind when sailing",
+      "PotionDescription": "Drinkable Moder's power",
+      "ConsumptionMessage": "Even in death Moder still cries",
+      "PotionEffectsConfig": {
+        "Effects": {
+          "Moder": 0.0
+        }
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "YagluthMeadBase",
+      "PotionPrefabName": "YagluthPotion",
+      "ItemName": "Yagluth's elixir",
+      "Requirements": [
+        {
+          "Item": "TrophyGoblinKing",
+          "Amount": 1
+        },
+        {
+          "Item": "Honey",
+          "Amount": 50
+        },
+        {
+          "Item": "Needle",
+          "Amount": 10
+        },
+        {
+          "Item": "Flax",
+          "Amount": 10
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 300,
+      "EffectTooltip": "Resistance VS magic damage and lightning damage",
+      "PotionDescription": "Drinkable Yagluth's power",
+      "ConsumptionMessage": "The cosmic powers of Yagluth.",
+      "PotionEffectsConfig": {
+        "DamageModifiers": [
+          {
+            "Type": "Fire",
+            "Modifier": "Resistant"
+          },
+          {
+            "Type": "Frost",
+            "Modifier": "Resistant"
+          },
+          {
+            "Type": "Lightning",
+            "Modifier": "Resistant"
+          }
+        ]
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "WaterproofMeadBase",
+      "PotionPrefabName": "WaterproofPotion",
+      "ItemName": "Rán's blessing",
+      "Requirements": [
+        {
+          "Item": "SerpentScale",
+          "Amount": 20
+        },
+        {
+          "Item": "Honey",
+          "Amount": 50
+        },
+        {
+          "Item": "Resin",
+          "Amount": 20
+        },
+        {
+          "Item": "Flax",
+          "Amount": 20
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 300,
+      "EffectTooltip": "Waterproof, consumes more stamina when running and jumping",
+      "PotionDescription": "Gives a waterproof coating, but running and jumping consumes more stamina",
+      "ConsumptionMessage": "You feel your skin drier",
+      "PotionEffectsConfig": {
+        "Effects": {
+          "Waterproof": 0.0,
+          "RunStaminaDrainModifier": 0.25,
+          "JumpStaminaDrainModifier": 0.25
+        }
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "AttackPowerMeadBase",
+      "PotionPrefabName": "AttackPowerPotion",
+      "ItemName": "Ymir's decoction",
+      "Requirements": [
+        {
+          "Item": "YmirRemains",
+          "Amount": 8
+        },
+        {
+          "Item": "TrophyDraugrFem",
+          "Amount": 5
+        },
+        {
+          "Item": "TrophyBoar",
+          "Amount": 15
+        },
+        {
+          "Item": "TrophyGreydwarfBrute",
+          "Amount": 5
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 300,
+      "EffectTooltip": "All physical attacks are stronger, makes you slower",
+      "PotionDescription": "Gives Ymir's strength",
+      "ConsumptionMessage": "You feel stronger like a giant",
+      "PotionEffectsConfig": {
+        "AttackModifiers": {
+          "Swords": 1.35,
+          "Knives": 1.25,
+          "Clubs": 2.25,
+          "Polearms": 1.55,
+          "Spears": 1.75,
+          "Axes": 1.5,
+          "Bows": 1.5,
+          "Unarmed": 3.0,
+          "Pickaxes": 1.5
+        },
+        "Effects": {
+          "OnLandSpeedMultiplier": 0.65
+        }
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "SwimmingTrainMeadBase",
+      "PotionPrefabName": "SwimmingTrainPotion",
+      "ItemName": "Mimir's swimming stimulant",
+      "Requirements": [
+        {
+          "Item": "Dandelion",
+          "Amount": 75
+        },
+        {
+          "Item": "AncientSeed",
+          "Amount": 10
+        },
+        {
+          "Item": "Chitin",
+          "Amount": 5
+        },
+        {
+          "Item": "Carrot",
+          "Amount": 30
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 300,
+      "EffectTooltip": "Gain swim skill faster, makes you slower on land",
+      "PotionDescription": "Makes learning to swim faster",
+      "ConsumptionMessage": "Your mind is one with the fish",
+      "PotionEffectsConfig": {
+        "Effects": {
+          "OnLandSpeedMultiplier": 0.65,
+          "StaminaRegenMultiplier": 0.5
+        },
+        "RaiseSkillModifiers": {
+          "Swim": 5.0
+        }
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "RestedMeadBase",
+      "PotionPrefabName": "RestedPotion",
+      "ItemName": "Freya's concoction",
+      "Requirements": [
+        {
+          "Item": "Mushroom",
+          "Amount": 50
+        },
+        {
+          "Item": "Thistle",
+          "Amount": 10
+        },
+        {
+          "Item": "Crystal",
+          "Amount": 5
+        },
+        {
+          "Item": "CarrotSeeds",
+          "Amount": 75
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 60,
+      "EffectTooltip": "You are relaxed and ready to rest",
+      "PotionDescription": "Extends rested effects",
+      "ConsumptionMessage": "You feel relaxed",
+      "Instructions": "Just drink it before resting or while the rest timer is not running and it will extend the buff period.",
+      "PotionEffectsConfig": {
+        "Effects": {
+          "RestedBonusPerComfortLevel": 95.0
+        }
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "SwimmingMeadBase",
+      "PotionPrefabName": "SwimmingPotion",
+      "ItemName": "Njord's infusion",
+      "Requirements": [
+        {
+          "Item": "SerpentMeat",
+          "Amount": 10
+        },
+        {
+          "Item": "FishRaw",
+          "Amount": 10
+        },
+        {
+          "Item": "Cloudberry",
+          "Amount": 25
+        },
+        {
+          "Item": "Chitin",
+          "Amount": 5
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 450,
+      "EffectTooltip": "Swimming proficient, consume less stamina while swimming",
+      "PotionDescription": "Decreases stamina consumption while swimming",
+      "ConsumptionMessage": "You feel like a fish",
+      "PotionEffectsConfig": {
+        "Effects": {
+          "SwimDrainFactor": 0.5
+        }
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "SpeedMeadBase",
+      "PotionPrefabName": "SpeedPotion",
+      "ItemName": "Hermod's infusion",
+      "Requirements": [
+        {
+          "Item": "MushroomYellow",
+          "Amount": 20
+        },
+        {
+          "Item": "Barley",
+          "Amount": 10
+        },
+        {
+          "Item": "Dandelion",
+          "Amount": 75
+        },
+        {
+          "Item": "TrophyDeer",
+          "Amount": 8
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 600,
+      "EffectTooltip": "You are faster, consumes more stamina while running or swimming",
+      "PotionDescription": "Makes you faster on land",
+      "ConsumptionMessage": "You can run like a fleeing deer",
+      "PotionEffectsConfig": {
+        "Effects": {
+          "OnLandSpeedMultiplier": 1.5,
+          "RunStaminaDrainModifier": 0.2,
+          "SwimDrainFactor": 1.35
+        }
+      }
+    },
+    {
+      "Enabled": true,
+      "MeadPrefabName": "StealthMeadBase",
+      "PotionPrefabName": "StealthPotion",
+      "ItemName": "Fjodr's essence",
+      "Requirements": [
+        {
+          "Item": "Feathers",
+          "Amount": 20
+        },
+        {
+          "Item": "Cloudberry",
+          "Amount": 20
+        },
+        {
+          "Item": "LeatherScraps",
+          "Amount": 50
+        },
+        {
+          "Item": "Turnip",
+          "Amount": 20
+        }
+      ],
+      "MeadOutputQuantity": 1,
+      "PotionOutputQuantity": 5,
+      "Duration": 300,
+      "EffectTooltip": "You are stealthier, slows stamina regeneration",
+      "PotionDescription": "Makes you stealthier",
+      "ConsumptionMessage": "You move like a feather",
+      "PotionEffectsConfig": {
+        "Effects": {
+          "NoiseModifier": 0.75,
+          "StealthModifier": 0.75,
+          "StaminaRegenMultiplier": -0.25
+        }
+      }
+    }
+  ]
+}

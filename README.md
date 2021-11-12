@@ -1,6 +1,5 @@
-_Not finished_
-
-# The XX Mod Pack
+_Not finished.  This is a work in progress_  
+# Fröslunda Mod Pack
 
 This modpack contains mods and configuration files in order to connect to our server.
 
@@ -23,7 +22,7 @@ This is a list of mods manually added to this modpack due to them not being avai
 | [Badgers Valheim Skies](https://www.nexusmods.com/valheim/mods/1594)                     | 0.9.0        |
 | [HD Skies for Valheim - HD Aurora Borealis](https://www.nexusmods.com/valheim/mods/1593) | 1.1          |
 | [Floating Items](https://www.nexusmods.com/valheim/mods/241)                             | 1.0.0        |
-| [Smarter containers](https://www.nexusmods.com/valheim/mods/332)                         | 1.6.0        |
+| [Smarter Containers](https://www.nexusmods.com/valheim/mods/332)                         | 1.6.0        |
 
 ### Optional Mods
 
@@ -35,7 +34,7 @@ Drastically improves graphics quality. Has two separate packages based on your g
 
 ### Notes
 
-_To Nexus mod authors: If you release your mod to Thunderstore I will **gladly** remove your manually added mod and add it correctly as a [dependency](https://valheim.thunderstore.io/package/create/docs/) to this modpack. The people running the server **this** modpack needs uses Linux native, [r2modman](https://valheim.thunderstore.io/package/ebkr/r2modman/) is the only mod manager able to be ran native on Linux. Considering that Valheim is a cross platform game, and the main developer at Iron Gate develops native on Linux please consider releasing your mods onto Thunderstore._
+_To Nexus mod authors: If you release your mod to Thunderstore I will **gladly** remove your manually added mod and add it correctly as a [dependency](https://valheim.thunderstore.io/package/create/docs/) to this modpack. The people running the server that **this** modpack needs uses Linux native, [r2modman](https://valheim.thunderstore.io/package/ebkr/r2modman/) is the only mod manager able to be ran native on Linux. Considering that Valheim is a cross platform game, and the main developer at Iron Gate develops native on Linux please consider releasing your mods onto Thunderstore._
 
 ### Changelog
 

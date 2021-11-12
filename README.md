@@ -1,5 +1,4 @@
-_Not finished_
-
+_Not finished.  This is a work in progress_  
 # The XX Mod Pack
 
 This modpack contains mods and configuration files in order to connect to our server.
@@ -35,7 +34,7 @@ Drastically improves graphics quality. Has two separate packages based on your g
 
 ### Notes
 
-_To Nexus mod authors: If you release your mod to Thunderstore I will **gladly** remove your manually added mod and add it correctly as a [dependency](https://valheim.thunderstore.io/package/create/docs/) to this modpack. The people running the server **this** modpack needs uses Linux native, [r2modman](https://valheim.thunderstore.io/package/ebkr/r2modman/) is the only mod manager able to be ran native on Linux. Considering that Valheim is a cross platform game, and the main developer at Iron Gate develops native on Linux please consider releasing your mods onto Thunderstore._
+_To Nexus mod authors: If you release your mod to Thunderstore I will **gladly** remove your manually added mod and add it correctly as a [dependency](https://valheim.thunderstore.io/package/create/docs/) to this modpack. The people running the server that **this** modpack needs uses Linux native, [r2modman](https://valheim.thunderstore.io/package/ebkr/r2modman/) is the only mod manager able to be ran native on Linux. Considering that Valheim is a cross platform game, and the main developer at Iron Gate develops native on Linux please consider releasing your mods onto Thunderstore._
 
 ### Changelog
 

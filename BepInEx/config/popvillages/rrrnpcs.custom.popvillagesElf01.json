@@ -1,0 +1,198 @@
+{
+   "sOriginalPrefabName" : "RRR_NPC",
+   "sNewPrefabName" : "popvillagesElf01",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 0.8,
+         "fY":1.2,
+         "fZ":1.1
+      },
+      "cTintColor" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null
+   },
+   "Category_Character" : {
+      "sName" : "Elven Ranger",
+      "sFaction" : "Players",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "",
+      "fMoveSpeedMulti" : 1.2,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : false,
+      "fHealth" : 200,
+      "dDamageTaken" : {
+         "m_blunt" : "Normal",
+         "m_slash" : "Normal",
+         "m_pierce" : "Normal",
+         "m_chop" : "Immune",
+         "m_pickaxe" : "Immune",
+         "m_fire" : "Normal",
+         "m_frost" : "Normal",
+         "m_lightning" : "Normal",
+         "m_poison" : "Normal",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : null,
+      "fAttackDamageTotalOverride" : null,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+         "SageTunicGreen",
+         "ArmorBronzeLegs",
+      ],
+      "aRandomWeapon" : [
+		 "BowHuntsman",
+         "BowHuntsman",
+         "BowHuntsman",
+		 "SpearElderbark",
+		 "SwordSilver",
+		 "SwordSilver",
+		 "SwordSilver"
+      ],
+      "aRandomArmor" : [
+         "ArmorBronzeChest",
+         "SageHoodGreen",
+		 "SageHoodBrown",
+		 "SageRobeGreen",
+		 "SageRobeBrown",
+         "CapeDeerHide",
+         ""
+      ],
+      "aRandomShield" : [
+         "ShieldSerpentscale",
+		 "@1",
+		 "",
+		 "",
+		 "",
+		 ""
+      ],
+      "aaRandomSets" : [
+         
+      ],
+      "aAdvancedCustomAttacks":[
+         {
+            "sOriginalPrefabName":"Greydwarf_shaman_heal",
+            "sTargetAnim":"mace_secondary",
+            "fAIAttackInterval":12,
+            "bAIPrioritized":null,
+            "dtAttackDamageOverride":{
+               "fDamage":0,
+               "fBlunt":0,
+               "fSlash":0,
+               "fPierce":0,
+               "fChop":0,
+               "fPickaxe":0,
+               "fFire":0,
+               "fFrost":0,
+               "fLightning":0,
+               "fPoison":0,
+               "fSpirit":0
+            },
+            "fAttackDamageTotalOverride":null,
+            "sAttackProjectileOverride":null,
+            "aStartEffects":[
+               "sfx_unarmed_swing"
+            ],
+            "aHitEffects":null,
+            "aTriggerEffects":null
+         },
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 20,
+      "sPathAgentType" : "Humanoid",
+      "fRandomCircleInterval" : 0,
+      "fRandomMoveInterval" : 0,
+      "fRandomMoveRange" : 0,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 20,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0.2,
+      "bCirculateWhileCharging" : true,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : false,
+      "bAttackPlayerObjectsWhenAlerted" : false,
+      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 100,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 10,
+      "fCircleTargetDuration" : 3,
+      "fCircleTargetDistance" : 5,
+      "aConsumeItems" : [
+         "CarrotSoup",
+         "QueensJam",
+         "CookedMeat",
+         "NeckTailGrilled"
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 80
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : true,
+      "bAlwaysTame" : true,
+      "bCommandableWhenTame" : true,
+      "bCanProcreateWhenTame" : false,
+      "bSfxNoAlert" : true,
+      "bSfxNoIdle" : true,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false,
+      "bFxNoTame" : true
+   },
+   "Category_NpcOnly" : {
+      "bIsFemale" : false,
+      "bNoBeardIfFemale": true,
+      "bRandomGender" : true,
+      "aBeardIds" : [
+         ""
+      ],
+      "aHairIds" : [
+         "Hair6",
+         "Hair7"
+      ],
+      "cSkinColorMin" : {
+         "fRed" : 1,
+         "fGreen" : 1,
+         "fBlue" : 1
+      },
+      "cSkinColorMax" : {
+         "fRed" : 1,
+         "fGreen" : 1,
+         "fBlue" : 1
+      },
+      "cHairColorMin" : {
+         "fRed" : 0.8,
+         "fGreen" : 0.6,
+         "fBlue" : 0
+      },
+      "cHairColorMax" : {
+         "fRed" : 1,
+         "fGreen" : 0.8,
+         "fBlue" : 0
+      },
+      "fHairValueMin" : 0.8,
+      "fHairValueMax" : 1
+   },
+   "sConfigFormatVersion" : "0.2.0"
+}

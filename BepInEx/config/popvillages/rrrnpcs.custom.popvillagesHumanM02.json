@@ -1,0 +1,181 @@
+{
+   "sOriginalPrefabName" : "RRR_NPC",
+   "sNewPrefabName" : "popvillagesHumanM02",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 1,
+         "fY" : 1,
+         "fZ" : 1
+      },
+      "cTintColor" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null
+   },
+   "Category_Character" : {
+      "sName" : "Human Commoner",
+      "sFaction" : "Players",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "",
+      "fMoveSpeedMulti" : 1.2,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : false,
+      "fHealth" : 80,
+      "dDamageTaken" : {
+         "m_blunt" : "Normal",
+         "m_slash" : "Normal",
+         "m_pierce" : "Normal",
+         "m_chop" : "Immune",
+         "m_pickaxe" : "Immune",
+         "m_fire" : "Normal",
+         "m_frost" : "Normal",
+         "m_lightning" : "Normal",
+         "m_poison" : "Normal",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : null,
+      "fAttackDamageTotalOverride" : null,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+         "ArmorLeatherLegs"
+      ],
+      "aRandomWeapon" : [
+         "KnifeCopper",
+		 "PickaxeBronze",
+		 "AxeBronze",
+		 "Cultivator",
+		 "Hammer",
+		 "Hoe",
+		 "",
+		 "",
+		 "",
+		 ""
+      ],
+      "aRandomArmor" : [
+         "CapeDeerHide",
+         "ArmorRagsLegs",
+         "ArmorLeatherChest",
+		 "SageTunicBlack",
+		 "SageTunicBlue",
+		 "SageTunicBrown",
+		 "SageTunicGray",
+		 "SageTunicGreen",
+		 "SageTunicRed",
+		 "SageTunicWhite",
+		 "SageRobeBlue",
+		 "SageRobeBrown",
+		 "SageRobeGray"
+      ],
+      "aRandomShield" : [
+         "Torch",
+         "",
+		 "",
+		 "",
+         ""
+      ],
+      "aaRandomSets" : [
+         
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 20,
+      "sPathAgentType" : "Humanoid",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 30,
+      "fRandomMoveRange" : 3,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 20,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0.2,
+      "bCirculateWhileCharging" : true,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : false,
+      "bAttackPlayerObjectsWhenAlerted" : false,
+      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 300,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 10,
+      "fCircleTargetDuration" : 3,
+      "fCircleTargetDistance" : 5,
+      "aConsumeItems" : [
+         "CookedMeat",
+         "NeckTailGrilled"
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 60
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : true,
+      "bAlwaysTame" : true,
+      "bCommandableWhenTame" : true,
+      "bCanProcreateWhenTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : true,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false,
+      "bFxNoTame" : true
+   },
+   "Category_NpcOnly" : {
+      "bIsFemale" : false,
+      "bNoBeardIfFemale": true,
+      "bRandomGender" : false,
+      "aBeardIds" : [
+         "Beard3",
+         "Beard4",
+		 ""
+      ],
+      "aHairIds" : [
+		 "Hair4",
+		 "Hair5",
+		 "Hair6",
+         "Hair7",
+         "Hair8",
+		 "Hair11"
+       ],
+       "cSkinColorMin": {
+         "fRed": 0.49,
+         "fGreen": 0.3,
+         "fBlue": 0.2
+       },
+       "cSkinColorMax": {
+         "fRed": 0.96,
+         "fGreen": 0.80,
+         "fBlue": 0.70
+       },
+       "cHairColorMin": {
+         "fRed": 0.88,
+         "fGreen": 0.65,
+         "fBlue": 0.25
+       },
+       "cHairColorMax": {
+         "fRed": 0.92,
+         "fGreen": 0.68,
+         "fBlue": 0.51
+       },
+       "fHairValueMin": 0.1,
+       "fHairValueMax": 0.9
+   },
+   "sConfigFormatVersion" : "0.2.0"
+}

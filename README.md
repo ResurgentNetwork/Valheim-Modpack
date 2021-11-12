@@ -23,6 +23,7 @@ This is a list of mods manually added to this modpack due to them not being avai
 | [HD Skies for Valheim - HD Aurora Borealis](https://www.nexusmods.com/valheim/mods/1593) | 1.1          |
 | [Floating Items](https://www.nexusmods.com/valheim/mods/241)                             | 1.0.0        |
 | [Smarter Containers](https://www.nexusmods.com/valheim/mods/332)                         | 1.6.0        |
+| [Lockable Doors](https://www.nexusmods.com/valheim/mods/1346)                            | 0.4.0        |
 
 ### Optional Mods
 

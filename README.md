@@ -25,6 +25,7 @@ This is a list of mods manually added to this modpack due to them not being avai
 | [Smarter Containers](https://www.nexusmods.com/valheim/mods/332)                         | 1.6.0        |
 | [Lockable Doors](https://www.nexusmods.com/valheim/mods/1346)                            | 0.4.0        |
 | [Krumpac Resource Pack](https://www.nexusmods.com/valheim/mods/1286)                     | 1.0.2        |
+| [Player Trading](https://www.nexusmods.com/valheim/mods/1232)                            | 1.2.1        |
 
 ### Optional Mods
 

@@ -27,6 +27,8 @@ This is a list of mods manually added to this modpack due to them not being avai
 | [Player Trading](https://www.nexusmods.com/valheim/mods/1232)                            | 1.2.1        |
 | [Server Rewards](https://www.nexusmods.com/valheim/mods/1131)                            | 0.6.2        |
 | [Nexus Update Check](https://www.nexusmods.com/valheim/mods/102)                         | 1.1.1        |
+| [Instant Monster Loot Drop](https://www.nexusmods.com/valheim/mods/164/)                 | 0.4.0        |
+| [Valheim Permissions](https://www.nexusmods.com/valheim/mods/1050)                       | 1.1.2        |
 
 ### Optional Mods
 

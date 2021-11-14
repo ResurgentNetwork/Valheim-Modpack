@@ -5,9 +5,9 @@ This modpack contains mods and configuration files in order to connect to our se
 
 ### How to connect
 
-1. As this is a **whitelisted** server you will need to create a forum post on our website (registration **is** required). Full details are listed [here](https://resurgent.network/threads/how-to-apply-to-be-whitelisted.3/).
-2.
-3. Inside the modpack there is a quick link where all you need to do is basically click a button and you will connect.
+As this is a **whitelisted** server and currently in ___closed beta___ you will need to create a forum post on our website (registration **is** required). Full details are listed [here](https://resurgent.network/threads/how-to-apply-to-be-whitelisted.3/).  
+
+
 
 ### ValheimPlus Changes
 

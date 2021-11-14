@@ -6,7 +6,7 @@ This modpack contains mods and configuration files in order to connect to our se
 ### How to connect
 
 1. As this is a **whitelisted** server you will need to create a forum post on our website (registration **is** required). Full details are listed [here](https://resurgent.network/threads/how-to-apply-to-be-whitelisted.3/).
-2. 
+2.
 3. Inside the modpack there is a quick link where all you need to do is basically click a button and you will connect.
 
 ### ValheimPlus Changes
@@ -26,6 +26,7 @@ This is a list of mods manually added to this modpack due to them not being avai
 | [Krumpac Resource Pack](https://www.nexusmods.com/valheim/mods/1286)                     | 1.0.2        |
 | [Player Trading](https://www.nexusmods.com/valheim/mods/1232)                            | 1.2.1        |
 | [Server Rewards](https://www.nexusmods.com/valheim/mods/1131)                            | 0.6.2        |
+| [Nexus Update Check](https://www.nexusmods.com/valheim/mods/102)                         | 1.1.1        |
 
 ### Optional Mods
 

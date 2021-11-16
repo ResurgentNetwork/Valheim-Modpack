@@ -32,9 +32,7 @@ This is a list of mods manually added to this modpack due to them not being avai
 | [Floating Items](https://www.nexusmods.com/valheim/mods/241)                             | 1.0.0        |
 | [Lockable Doors](https://www.nexusmods.com/valheim/mods/1346)                            | 0.4.0        |
 | [Krumpac Resource Pack](https://www.nexusmods.com/valheim/mods/1286)                     | 1.0.2        |
-| [Player Trading](https://www.nexusmods.com/valheim/mods/1232)                            | 1.2.1        |
 | [Server Rewards](https://www.nexusmods.com/valheim/mods/1131)                            | 0.6.2        |
-| [Nexus Update Check](https://www.nexusmods.com/valheim/mods/102)                         | 1.1.1        |
 | [Instant Monster Loot Drop](https://www.nexusmods.com/valheim/mods/164/)                 | 0.4.0        |
 | [Valheim Permissions](https://www.nexusmods.com/valheim/mods/1050)                       | 1.1.2        |
 

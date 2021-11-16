@@ -4,10 +4,16 @@ _Not finished.  This is a work in progress_
 This modpack contains mods and configuration files in order to connect to our server.
 
 ---
+
+### Links
+
+- Discord: https://resurgent.network/discord
+- Website: https://resurgent.network
+
+---
 ### How to connect
 
 As this is a **whitelisted** server and currently in ___closed beta___ you will need to create a forum post on our website (registration **is** required). Full details are listed [here](https://resurgent.network/threads/how-to-apply-to-be-whitelisted.3/).  
-
 
 ---
 ### ValheimPlus Changes
@@ -48,6 +54,9 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.3
+- Added ConfigWatcher
+- Updated QuickConnect Server
 
 v0.0.2
 - Updated Planbuild to v0.8.5

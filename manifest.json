@@ -1,6 +1,6 @@
 {
     "name": "Froslunda_Modpack",
-    "version_number": "0.0.2",
+    "version_number": "0.0.3",
     "website_url": "https://resurgent.network",
     "description": "This is the modpack for the Valheim server generously hosted and ran by Resurgent Network",
     "dependencies": [
@@ -58,6 +58,7 @@
         "OdinPlus-AzuAdminTool-1.1.0",
         "Same-AutoPicker-1.1.3",
         "abearcodes-SimpleRecycling-0.0.13",
-        "KiwisMods-Forgotten_Biomes-0.0.12"
+        "KiwisMods-Forgotten_Biomes-0.0.12",
+        "Smoothbrain-ConfigWatcher-1.0.1"
     ]
 }

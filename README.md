@@ -54,6 +54,9 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.4
+- Some tweaks
+
 v0.0.3
 - Added ConfigWatcher
 - Updated QuickConnect Server

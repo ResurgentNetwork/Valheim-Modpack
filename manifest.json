@@ -1,6 +1,6 @@
 {
     "name": "Froslunda_Modpack",
-    "version_number": "0.0.12",
+    "version_number": "0.0.13",
     "website_url": "https://resurgent.network",
     "description": "This is the modpack for the Valheim server generously hosted and ran by Resurgent Network",
     "dependencies": [
@@ -43,7 +43,7 @@
         "Fantu-SageRobes-1.0.0",
         "Fantu-PopVillages-1.0.0",
         "WiseHorror-Veinmine-1.2.5",
-        "Detalhes-RestrictedAreas-0.0.3",
+        "Detalhes-RestrictedAreas-0.0.4",
         "Neobotics-RequipMe-0.1.0",
         "Tekla-ColorfulSigns-5.4.1604",
         "OdinPlus-Digitalroots_GoldBars-1.2.0",

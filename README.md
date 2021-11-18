@@ -51,6 +51,9 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.13
+- RestrictedAreas updated to 0.0.4
+
 v0.0.8
 - Due to a bork up to Thunderstore this is the same version as 0.0.7 - just re-uploaded again
 

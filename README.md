@@ -32,7 +32,6 @@ This is a list of mods manually added to this modpack due to them not being avai
 | [Floating Items](https://www.nexusmods.com/valheim/mods/241)                             | 1.0.0        |
 | [Lockable Doors](https://www.nexusmods.com/valheim/mods/1346)                            | 0.4.0        |
 | [Krumpac Resource Pack](https://www.nexusmods.com/valheim/mods/1286)                     | 1.0.2        |
-| [Server Rewards](https://www.nexusmods.com/valheim/mods/1131)                            | 0.6.2        |
 | [Instant Monster Loot Drop](https://www.nexusmods.com/valheim/mods/164/)                 | 0.4.0        |
 | [Valheim Permissions](https://www.nexusmods.com/valheim/mods/1050)                       | 1.1.2        |
 
@@ -52,6 +51,12 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.7
+- Jotunn updated to 2.4.0
+- PlanBuild updated to 0.9.0
+- AzuAntiCheat updated to 1.4.1
+- Added Rewards
+
 v0.0.4
 - Some tweaks
 

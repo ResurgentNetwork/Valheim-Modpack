@@ -51,6 +51,9 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.14
+- Drop_That updated 2.1.1
+
 v0.0.13
 - RestrictedAreas updated to 0.0.4
 

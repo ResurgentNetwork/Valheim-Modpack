@@ -1,6 +1,6 @@
 {
     "name": "Froslunda_Modpack",
-    "version_number": "0.0.13",
+    "version_number": "0.0.14",
     "website_url": "https://resurgent.network",
     "description": "This is the modpack for the Valheim server generously hosted and ran by Resurgent Network",
     "dependencies": [
@@ -37,7 +37,7 @@
         "OdinPlus-AzuAdminTool-1.1.0",
         "Tekla-DungeonReset-5.4.1605",
         "Azumatt-Wayshrine-1.0.6",
-        "ASharpPen-Drop_That-2.1.0",
+        "ASharpPen-Drop_That-2.1.1",
         "FixingDeer-NameYourShip-0.5.4",
         "Azumatt-AzuAntiCheat-1.4.1",
         "Fantu-SageRobes-1.0.0",

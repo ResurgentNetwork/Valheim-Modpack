@@ -51,6 +51,9 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.16
+- Removed BetterNetworking.  Found to be too buggy for a dedicated server
+
 v0.0.15
 - Updated dependency for ForgottenBiomes
 

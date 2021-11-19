@@ -1,6 +1,6 @@
 {
     "name": "Froslunda_Modpack",
-    "version_number": "0.0.15",
+    "version_number": "0.0.16",
     "website_url": "https://resurgent.network",
     "description": "This is the modpack for the Valheim server generously hosted and ran by Resurgent Network",
     "dependencies": [
@@ -60,7 +60,6 @@
         "Nexus-FarmGrid-0.2.0",
         "Advize-PlantEverything-1.8.4",
         "ValheimPlus-ValheimPlus-9.9.1",
-        "CW_Jesse-BetterNetworking_Valheim-1.2.2",
         "MeatwareMonster-MoreDefenses-1.2.0"
     ]
 }

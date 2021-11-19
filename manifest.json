@@ -1,11 +1,11 @@
 {
     "name": "Froslunda_Modpack",
-    "version_number": "0.0.14",
+    "version_number": "0.0.15",
     "website_url": "https://resurgent.network",
     "description": "This is the modpack for the Valheim server generously hosted and ran by Resurgent Network",
     "dependencies": [
         "Azumatt-BetterWards-1.6.4",
-        "KiwisMods-Forgotten_Biomes-0.0.12",
+        "AlreeNicolas-Forgotten_Biomes-0.0.14",
         "Same-AutoPicker-1.1.3",
         "KGvalheim-Marketplace_And_Server_NPCs_Revamped-4.3.0",
         "OdinPlus-BuildIt-1.3.1",

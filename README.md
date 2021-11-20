@@ -51,6 +51,15 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.17
+- Marketplace_And_Server_NPCs_Revamped updated to 5.6.0
+- Added EmoteWheel
+- Added EquipWheel
+- Added MoreEquipWheels
+- Added MultiCraft
+- Added MinimalStatusEffects
+- Added BoneAppetit
+
 v0.0.16
 - Removed BetterNetworking.  Found to be too buggy for a dedicated server
 

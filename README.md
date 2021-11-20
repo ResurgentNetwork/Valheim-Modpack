@@ -51,6 +51,9 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.18
+- Marketplace_And_Server_NPCs_Revamped updated to 5.7.1
+
 v0.0.17
 - Marketplace_And_Server_NPCs_Revamped updated to 5.6.0
 - Added EmoteWheel

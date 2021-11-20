@@ -51,6 +51,9 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.19
+- Actually **add** MultiCraft
+
 v0.0.18
 - Marketplace_And_Server_NPCs_Revamped updated to 5.7.1
 

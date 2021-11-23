@@ -1,6 +1,6 @@
 {
   "name": "Froslunda_Modpack",
-  "version_number": "0.0.21",
+  "version_number": "0.0.22",
   "website_url": "https://resurgent.network",
   "description": "This is the modpack for the Valheim server generously hosted and ran by Resurgent Network",
   "dependencies": [
@@ -59,7 +59,6 @@
     "KGvalheim-Marketplace_And_Server_NPCs_Revamped-5.9.0",
     "Same-AutoPicker-1.1.3",
     "Azumatt-BetterWards-1.6.4",
-    "Skrip-SkToolbox-1.10.5",
     "AlreeNicolas-Forgotten_Biomes-0.0.14",
     "RockerKitten-BoneAppetit-3.0.4",
     "RandyKnapp-MinimalStatusEffects-1.0.3",
@@ -67,6 +66,7 @@
     "virtuaCode-EmoteWheel-1.3.1",
     "virtuaCode-MoreEquipWheels-1.3.6",
     "virtuaCode-TrashItems-1.2.4",
-    "MaxiMods-MultiCraft-1.0.0"
+    "MaxiMods-MultiCraft-1.0.0",
+    "ComfyMods-Compress-1.3.0"
   ]
 }

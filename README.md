@@ -51,6 +51,9 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.22
+- Added Compress.  Compress data to/from server.
+
 v0.0.21
 - Removed NameYourShip.  Does not work outright or does not work with the combination of mods in this pack.
 - AzuAntiCheat updated to 1.5.0

@@ -51,6 +51,12 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.21
+- Removed NameYourShip.  Does not work outright or does not work with the combination of mods in this pack.
+- AzuAntiCheat updated to 1.5.0
+- RegenerativeNature updated to 1.2.2
+- Marketplace_And_Server_NPCs_Revamped updated to 5.9.0
+
 v0.0.20
 - Downgrade Marketplace_And_Server_NPCs_Revamped to 4.3.0
 

@@ -51,6 +51,9 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.23
+- Config tweaks
+
 v0.0.22
 - Added Compress.  Compress data to/from server.
 

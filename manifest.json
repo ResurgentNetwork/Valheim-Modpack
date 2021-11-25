@@ -1,6 +1,6 @@
 {
   "name": "Froslunda_Modpack",
-  "version_number": "0.0.25",
+  "version_number": "0.0.26",
   "website_url": "https://resurgent.network",
   "description": "This is the modpack for the Valheim server generously hosted and ran by Resurgent Network",
   "dependencies": [
@@ -14,7 +14,7 @@
     "Nextek-SpeedyPaths-1.0.5",
     "ERROR-BetterDiscordPresence-1.3.1",
     "jrobsonchase-PositionalAudio-3.0.1",
-    "FixItFelix-RegenerativeNature-1.2.2",
+    "FixItFelix-RegenerativeNature-1.2.3",
     "OdinPlus-OdinArchitect-0.1.3",
     "RandyKnapp-EpicLoot-0.8.7",
     "bdew-QuickConnect-1.4.0",

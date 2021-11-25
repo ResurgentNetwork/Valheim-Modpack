@@ -51,8 +51,13 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.27
+- PopVillages updated to 1.0.1
+- Sages Vault added.  New requirement for PopVillages
+- Removed SageRobes. Deprecated in favor for Sages Vault
+
 v0.0.26
-- RegenerativeNature  updated to 1.2.3
+- RegenerativeNature updated to 1.2.3
 
 v0.0.25
 - Spawn_That updated to 0.11.4

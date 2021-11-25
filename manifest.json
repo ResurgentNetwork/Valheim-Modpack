@@ -1,6 +1,6 @@
 {
   "name": "Froslunda_Modpack",
-  "version_number": "0.0.26",
+  "version_number": "0.0.27",
   "website_url": "https://resurgent.network",
   "description": "This is the modpack for the Valheim server generously hosted and ran by Resurgent Network",
   "dependencies": [
@@ -24,8 +24,8 @@
     "Neobotics-RequipMe-0.1.0",
     "Detalhes-RestrictedAreas-0.0.4",
     "WiseHorror-Veinmine-1.2.5",
-    "Fantu-SageRobes-1.0.0",
-    "Fantu-PopVillages-1.0.0",
+    "Fantu-Sages_Vault-1.1.2",
+    "Fantu-PopVillages-1.0.1",
     "Azumatt-AzuAntiCheat-1.5.0",
     "ASharpPen-Drop_That-2.1.1",
     "Azumatt-Wayshrine-1.0.6",

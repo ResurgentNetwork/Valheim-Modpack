@@ -51,6 +51,9 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.25
+- Spawn_That updated to 0.11.4
+
 v0.0.24
 - Jotunn updated to 2.4.1
 

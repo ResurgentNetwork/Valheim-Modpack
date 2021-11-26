@@ -34,6 +34,8 @@ This is a list of mods manually added to this modpack due to them not being avai
 | [Krumpac Resource Pack](https://www.nexusmods.com/valheim/mods/1286)                     | 1.0.2        |
 | [Instant Monster Loot Drop](https://www.nexusmods.com/valheim/mods/164/)                 | 0.4.0        |
 | [Valheim Permissions](https://www.nexusmods.com/valheim/mods/1050)                       | 1.1.2        |
+| [Advanced Boating](https://www.nexusmods.com/valheim/mods/1537)                          | 0.4.1        |
+| [Mod Config Enforcer](https://www.nexusmods.com/valheim/mods/460)                        | 2.1.1        |
 
 ---
 ### Optional Mods
@@ -51,6 +53,13 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.28
+- Added RRRBetterRaids
+- Added SteadyRegeneration
+- Added ComfortTweaks
+- Added ValheimPerformanceOptimizations.  Only added client side for now.
+- Removed Wayshrine v1.0.6.  _Has a **major** bug.  Users listed in `permittedlist.txt` (whitelist) are given admin level access to this mod.  When reported on Nexus the mod author deleted the bug report.  Hence removed from this pack until this major bug has been fixed for security reasons._
+
 v0.0.27
 - PopVillages updated to 1.0.1
 - Sages Vault added.  New requirement for PopVillages

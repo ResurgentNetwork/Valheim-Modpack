@@ -53,6 +53,10 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.29
+- Updated Marketplace_And_Server_NPCs_Revamped to 6.0.1
+- Updated Spawn_That to 0.11.5
+
 v0.0.28
 - Added RRRBetterRaids
 - Added SteadyRegeneration

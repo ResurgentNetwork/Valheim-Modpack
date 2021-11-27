@@ -1,11 +1,11 @@
 {
   "name": "Froslunda_Modpack",
-  "version_number": "0.0.28",
+  "version_number": "0.0.29",
   "website_url": "https://resurgent.network",
   "description": "This is the modpack for the Valheim server generously hosted and ran by Resurgent Network",
   "dependencies": [
     "ASharpPen-Drop_That-2.1.1",
-    "ASharpPen-Spawn_That-0.11.4",
+    "ASharpPen-Spawn_That-0.11.5",
     "Advize-PlantEverything-1.8.4",
     "AlreeNicolas-Forgotten_Biomes-0.0.14",
     "Azumatt-AzuAntiCheat-1.5.0",
@@ -17,7 +17,7 @@
     "Fantu-Sages_Vault-1.1.2",
     "FixItFelix-RegenerativeNature-1.2.3",
     "KGvalheim-MagicOverhaul-1.5.2",
-    "KGvalheim-Marketplace_And_Server_NPCs_Revamped-5.9.0",
+    "KGvalheim-Marketplace_And_Server_NPCs_Revamped-6.0.1",
     "MathiasDecrock-PlanBuild-0.9.0",
     "MathiasDecrock-SeedTotem-4.1.0",
     "MathiasDecrock-Snap_Points_Made_Easy-1.3.0",

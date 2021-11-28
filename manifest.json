@@ -1,11 +1,11 @@
 {
   "name": "Froslunda_Modpack",
-  "version_number": "0.0.29",
+  "version_number": "0.0.30",
   "website_url": "https://resurgent.network",
   "description": "This is the modpack for the Valheim server generously hosted and ran by Resurgent Network",
   "dependencies": [
     "ASharpPen-Drop_That-2.1.1",
-    "ASharpPen-Spawn_That-0.11.5",
+    "ASharpPen-Spawn_That-0.11.6",
     "Advize-PlantEverything-1.8.4",
     "AlreeNicolas-Forgotten_Biomes-0.0.14",
     "Azumatt-AzuAntiCheat-1.5.0",
@@ -23,7 +23,6 @@
     "MathiasDecrock-Snap_Points_Made_Easy-1.3.0",
     "MaxiMods-MultiCraft-1.0.0",
     "MeatwareMonster-MoreDefenses-1.2.0",
-    "Neobotics-RequipMe-0.1.0",
     "Nextek-SpeedyPaths-1.0.5",
     "Nexus-FarmGrid-0.2.0",
     "OdinPlus-AzuAdminTool-1.1.0",

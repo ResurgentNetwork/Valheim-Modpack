@@ -36,6 +36,7 @@ This is a list of mods manually added to this modpack due to them not being avai
 | [Valheim Permissions](https://www.nexusmods.com/valheim/mods/1050)                       | 1.1.2        |
 | [Advanced Boating](https://www.nexusmods.com/valheim/mods/1537)                          | 0.4.1        |
 | [Mod Config Enforcer](https://www.nexusmods.com/valheim/mods/460)                        | 2.1.1        |
+| [Mount Up](https://www.nexusmods.com/valheim/mods/1091)                                  | 3.2.6        |
 
 ---
 ### Optional Mods
@@ -53,6 +54,11 @@ _To Nexus mod authors: If you release your mod to Thunderstore I will **gladly**
 
 ----
 ### Changelog
+v0.0.30
+- Spawn_That updated to 0.11.6
+- Removed RequipMe
+- Added Mount Up
+
 v0.0.29
 - Updated Marketplace_And_Server_NPCs_Revamped to 6.0.1
 - Updated Spawn_That to 0.11.5

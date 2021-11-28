@@ -1,4 +1,4 @@
-_Not finished.  This is a work in progress_  
+_Not finished.  This is a work in progress while in closed beta_  
 # **Fröslunda Mod Pack**
 
 This modpack contains mods and configuration files in order to connect to our server.
@@ -13,7 +13,7 @@ This modpack contains mods and configuration files in order to connect to our se
 ---
 ### How to connect
 
-As this is a **whitelisted** server and currently in ___closed beta___ you will need to create a forum post on our website (registration **is** required). Full details are listed [here](https://resurgent.network/threads/how-to-apply-to-be-whitelisted.3/).  
+As this is a **whitelisted** server and currently in ___closed beta___. Full details are listed [here](https://resurgent.network/threads/how-to-apply-to-be-whitelisted.3/) on how to apply & how to connect.
 
 ---
 ### ValheimPlus Changes
@@ -37,6 +37,10 @@ This is a list of mods manually added to this modpack due to them not being avai
 | [Advanced Boating](https://www.nexusmods.com/valheim/mods/1537)                          | 0.4.1        |
 | [Mod Config Enforcer](https://www.nexusmods.com/valheim/mods/460)                        | 2.1.1        |
 | [Mount Up](https://www.nexusmods.com/valheim/mods/1091)                                  | 3.2.6        |
+| [Cooking Station Tweaks](https://www.nexusmods.com/valheim/mods/895)                     | 0.4.2        |
+| [AllTameable H and H Compatibility](https://www.nexusmods.com/valheim/mods/1571) *       | 1.0.7        |
+
+\* _Version is not up to date on Thunderstore vs [Nexus](https://www.nexusmods.com/valheim/mods/)_
 
 ---
 ### Optional Mods
@@ -50,103 +54,9 @@ Drastically improves graphics quality. Has two separate packages based on your g
 ---
 ### Notes
 
-_To Nexus mod authors: If you release your mod to Thunderstore I will **gladly** remove your manually added mod and add it correctly as a [dependency](https://valheim.thunderstore.io/package/create/docs/) to this modpack. The people running the server that **this** modpack needs uses Linux native, [r2modman](https://valheim.thunderstore.io/package/ebkr/r2modman/) is the only mod manager able to be ran native on Linux. Considering that Valheim is a cross platform game, and the main developer at Iron Gate develops native on Linux please consider releasing your mods onto Thunderstore._
+_To Nexus mod authors:  If you release your mod to Thunderstore & kept up to date/mirrored on Nexus I will **gladly** remove your manually added mod and add it correctly as a [dependency](https://valheim.thunderstore.io/package/create/docs/) to this modpack. The people running the server that **this** modpack needs uses Linux natively, [r2modman](https://valheim.thunderstore.io/package/ebkr/r2modman/) is the only mod manager able to be ran native on Linux. Considering that Valheim is a cross platform game, and the main developer at Iron Gate develops native on Linux please consider releasing your mods onto Thunderstore._
 
 ----
 ### Changelog
-v0.0.30
-- Spawn_That updated to 0.11.6
-- Removed RequipMe
-- Added Mount Up
 
-v0.0.29
-- Updated Marketplace_And_Server_NPCs_Revamped to 6.0.1
-- Updated Spawn_That to 0.11.5
-
-v0.0.28
-- Added RRRBetterRaids
-- Added SteadyRegeneration
-- Added ComfortTweaks
-- Added ValheimPerformanceOptimizations.  Only added client side for now.
-- Removed Wayshrine v1.0.6.  _Has a **major** bug.  Users listed in `permittedlist.txt` (whitelist) are given admin level access to this mod.  When reported on Nexus the mod author deleted the bug report.  Hence removed from this pack until this major bug has been fixed for security reasons._
-
-v0.0.27
-- PopVillages updated to 1.0.1
-- Sages Vault added.  New requirement for PopVillages
-- Removed SageRobes. Deprecated in favor for Sages Vault
-
-v0.0.26
-- RegenerativeNature updated to 1.2.3
-
-v0.0.25
-- Spawn_That updated to 0.11.4
-
-v0.0.24
-- Jotunn updated to 2.4.1
-
-v0.0.23
-- Config tweaks
-
-v0.0.22
-- Added Compress.  Compress data to/from server.
-
-v0.0.21
-- Removed NameYourShip.  Does not work outright or does not work with the combination of mods in this pack.
-- AzuAntiCheat updated to 1.5.0
-- RegenerativeNature updated to 1.2.2
-- Marketplace_And_Server_NPCs_Revamped updated to 5.9.0
-
-v0.0.20
-- Downgrade Marketplace_And_Server_NPCs_Revamped to 4.3.0
-
-v0.0.19
-- Actually **add** MultiCraft
-
-v0.0.18
-- Marketplace_And_Server_NPCs_Revamped updated to 5.7.1
-
-v0.0.17
-- Marketplace_And_Server_NPCs_Revamped updated to 5.6.0
-- Added EmoteWheel
-- Added EquipWheel
-- Added MoreEquipWheels
-- Added MultiCraft
-- Added MinimalStatusEffects
-- Added BoneAppetit
-
-v0.0.16
-- Removed BetterNetworking.  Found to be too buggy for a dedicated server
-
-v0.0.15
-- Updated dependency for ForgottenBiomes
-
-v0.0.14
-- Drop_That updated 2.1.1
-
-v0.0.13
-- RestrictedAreas updated to 0.0.4
-
-v0.0.8
-- Due to a bork up to Thunderstore this is the same version as 0.0.7 - just re-uploaded again
-
-v0.0.7
-- Jotunn updated to 2.4.0
-- PlanBuild updated to 0.9.0
-- AzuAntiCheat updated to 1.4.1
-- Added Rewards
-
-v0.0.4
-- Some tweaks
-
-v0.0.3
-- Added ConfigWatcher
-- Updated QuickConnect Server
-
-v0.0.2
-- Updated Planbuild to v0.8.5
-- Updated RegenerativeNature to v1.2.1
-- Added ForgottenBiomes
-
-v0.0.1
-
-- Initial version
+All changes moved to [CHANGELOG.md](https://github.com/ResurgentNetwork/Valheim-Modpack/blob/main/CHANGELOG.md).  Changelog was getting a bit long to display on Thunderstore.

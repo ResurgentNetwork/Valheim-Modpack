@@ -1,0 +1,9 @@
+{
+    "name": "AllTameableHandHUpdated",
+    "version_number": "1.0.7",
+    "website_url": "https://www.nexusmods.com/valheim/mods/1571?tab=description",
+    "description": "Adds the ability to tame almost any creature",
+    "dependencies": [
+        "ValheimModding-Jotunn-2.3.10"
+    ]
+}

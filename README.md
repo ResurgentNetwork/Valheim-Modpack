@@ -1,7 +1,8 @@
 _Not finished.  This is a work in progress while in closed beta_  
 # **Fröslunda Mod Pack**
 
-This modpack contains mods and configuration files in order to connect to our server.
+This modpack contains mods and configuration files in order to connect to our server.  
+The server is hosted in Australia, _currently_ on a VPS within the Sydney Equinix Data Centre
 
 ---
 
@@ -13,7 +14,8 @@ This modpack contains mods and configuration files in order to connect to our se
 ---
 ### How to connect
 
-As this is a **whitelisted** server and currently in ___closed beta___. Full details are listed [here](https://resurgent.network/threads/how-to-apply-to-be-whitelisted.3/) on how to apply & how to connect.
+As this is a **whitelisted** server and currently in ___closed beta___.  Full details are listed [here](https://resurgent.network/threads/how-to-apply-to-be-whitelisted.3/) on how to apply to be whitelisted.  
+_NB: A registered & email confirmed account is __required___  
 
 ---
 ### ValheimPlus Changes
@@ -32,7 +34,7 @@ This is a list of mods manually added to this modpack due to them not being avai
 | [Floating Items](https://www.nexusmods.com/valheim/mods/241)                             | 1.0.0        |
 | [Lockable Doors](https://www.nexusmods.com/valheim/mods/1346)                            | 0.4.0        |
 | [Krumpac Resource Pack](https://www.nexusmods.com/valheim/mods/1286)                     | 1.0.2        |
-| [Instant Monster Loot Drop](https://www.nexusmods.com/valheim/mods/164/)                 | 0.4.0        |
+| [Instant Monster Loot Drop](https://www.nexusmods.com/valheim/mods/164/) *               | 0.4.0        |
 | [Valheim Permissions](https://www.nexusmods.com/valheim/mods/1050)                       | 1.1.2        |
 | [Advanced Boating](https://www.nexusmods.com/valheim/mods/1537)                          | 0.4.1        |
 | [Mod Config Enforcer](https://www.nexusmods.com/valheim/mods/460)                        | 2.1.1        |
@@ -54,7 +56,7 @@ Drastically improves graphics quality. Has two separate packages based on your g
 ---
 ### Notes
 
-_To Nexus mod authors:  If you release your mod to Thunderstore & kept up to date/mirrored on Nexus I will **gladly** remove your manually added mod and add it correctly as a [dependency](https://valheim.thunderstore.io/package/create/docs/) to this modpack. The people running the server that **this** modpack needs uses Linux natively, [r2modman](https://valheim.thunderstore.io/package/ebkr/r2modman/) is the only mod manager able to be ran native on Linux. Considering that Valheim is a cross platform game, and the main developer at Iron Gate develops native on Linux please consider releasing your mods onto Thunderstore._
+_To Nexus mod authors:  If you release your mod to Thunderstore & kept up to date on Thunderstore I will **gladly** remove your manually added mod and add it correctly as a [dependency](https://valheim.thunderstore.io/package/create/docs/) to this modpack. The people running the server that **this** modpack needs uses Linux natively, [r2modman](https://valheim.thunderstore.io/package/ebkr/r2modman/) is the only mod manager able to be ran native on Linux. Considering that Valheim is a cross platform game, and the main developer at Iron Gate develops native on Linux please consider releasing your mods onto Thunderstore._
 
 ----
 ### Changelog
